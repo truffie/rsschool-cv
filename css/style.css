@@ -44,10 +44,16 @@ a {
    color: black
 }
 
+h1,
 h2 {
    font-size: 3vw;
    display: inline-block;
    color: rgb(219, 219, 219);
+}
+
+h1 {
+   font-size: 3.5vw;
+   
 }
 
 
@@ -109,9 +115,14 @@ footer {
 
 .nav__item {
    display: inline-block;
-   padding: 0px 48px;
+   padding: 0px 48px 0 0;
 
 }
+
+.nav__item:last-child {
+   padding: 0px;
+}
+
 
 .nav__item a:hover {
    color: rgba(255, 255, 255, 0.245);
@@ -164,6 +175,11 @@ footer {
    min-width: 50%;
    padding-left: 22%;
 
+}
+
+.info__contacts>h1 {
+   display: flex;
+   justify-content: center;
 }
 
 #contacts {
