@@ -75,11 +75,16 @@
                   <div class="info__code-wrap">
                      <pre>
                         <code>
-                           function hoopCount (n) 
-                           {  
-                           let b =  n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it";  
-                              return b;
-                           }
+                          var countBits = function(n) {
+                              let  res = n.toString(2)
+                              let count = 0;
+                                 for(let i = 0; i < res.length; i++){
+                                    if(res[i] === '1'){
+                                       count = count + 1;
+                                       }
+                                    }
+                                 return count
+                              };
                         </code>
                      </pre>
                   </div>
