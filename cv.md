@@ -20,7 +20,7 @@ from codewars
 >string = string.toLowerCase();
 >for(let char of voc){
 >if(string.includes(char)){
->continue;
+>continue; 
 >}else{
 >return false}
 >}
