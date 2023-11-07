@@ -31,5 +31,6 @@ from codewars
  >[COFFEE HOUSE](https://codepen.io/truffie/pen/vYjwbjw)  
  
 ### **Education**
-
+IBI until 2025. 
+front-end & back-end knowledges from - hschool,rsschool,udemy,stepik,youtube.
 ### **My english lvl B1-A2**
